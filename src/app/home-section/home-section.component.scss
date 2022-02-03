@@ -1,0 +1,23 @@
+        .home-container {
+            display: flex;
+            background: linear-gradient(to right, #0c0c0c 0%, #0c0c0c 30%, #181823 30%, #181823 100%);
+            justify-content: space-between;
+            padding-bottom: 70px;
+            img {
+                width: 600px;
+            }
+            h1 {
+                color: white;
+                font-size: 76px;
+                font-weight: bold;
+                line-height: 40px;
+            }
+            p {
+                color: white
+            }
+        }
+        
+        .text-container {
+            position: absolute;
+            left: 500px;
+        }

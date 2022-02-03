@@ -1,0 +1,17 @@
+header {
+    background: linear-gradient(to right, #0c0c0c 0%, #0c0c0c 30%, #181823 30%, #181823 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 120px;
+    img {
+        width: 140px;
+    }
+    a {
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+}
