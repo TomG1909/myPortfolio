@@ -6,17 +6,22 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeSectionComponent } from './home-section/home-section.component';
 import { AboutSectionComponent } from './about-section/about-section.component';
+import { MyProjectsComponent } from './my-projects/my-projects.component';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeSectionComponent,
-    AboutSectionComponent
+    AboutSectionComponent,
+    MyProjectsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ScrollingModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,4 +1,7 @@
+
 import { Component, OnInit } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-about-section',
@@ -6,10 +9,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-section.component.scss']
 })
 export class AboutSectionComponent implements OnInit {
-
-  constructor() { }
-
   ngOnInit(): void {
+
   }
+
+
+
+
+
 
 }
