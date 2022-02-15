@@ -8,6 +8,8 @@ import { HomeSectionComponent } from './home-section/home-section.component';
 import { AboutSectionComponent } from './about-section/about-section.component';
 import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+import { InViewPortServiceComponent } from './in-view-port-service/in-view-port-service.component';
+import { InViewPort } from './in-view-port.service/in-view-port.service.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     HeaderComponent,
     HomeSectionComponent,
     AboutSectionComponent,
-    MyProjectsComponent
+    MyProjectsComponent,
+    InViewPortServiceComponent,
+    InViewPort.ServiceComponent
   ],
   imports: [
     BrowserModule,
