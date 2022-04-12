@@ -1,49 +1,21 @@
-.bg {
-    background-color: #0c0c0c;
-}
-
-.skill-container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    margin-top: 20px;
-    animation: animationLeft 5s ease-in-out;
-    span {
-        color: white;
-        font-size: 24px;
-        font-weight: bold;
-        width: 80px;
-    }
-    img {
-        width: 60px;
-    }
-}
-
-@keyframes animationLeft {
-    0% {
-        transform: translate(-500px);
-        opacity: 0;
-    }
-    to {
-        transform: translate(0);
-        opacity: 1;
-    }
-}
-
-.pd-b {
-    padding-bottom: 20px;
-}
-
 .container-aboutme {
+    background-color: #0c0c0c;
     display: flex;
     justify-content: space-between;
     max-height: 600px;
+    color: rgba(225, 225, 225, 0.6);
+    padding-bottom: 125px;
     img {
         width: 40vw;
     }
     p {
-        padding-left: 40px;
+        padding-left: 70px;
+        padding-right: 70px;
+        font-size: 23px;
+        line-height: 35px;
+    }
+    h2 {
+        padding-left: 70px !important;
     }
 }
 

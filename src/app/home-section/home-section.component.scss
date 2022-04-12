@@ -1,18 +1,17 @@
         .home-container {
             display: flex;
             background: linear-gradient(to right, #0c0c0c 0%, #0c0c0c 30%, #181823 30%, #181823 100%);
-            justify-content: space-between;
-            padding-bottom: 70px;
-            width: 100vw;
+            width: 100%;
+            height: calc(100vh - 100px);
             img {
                 width: 600px;
-                height: 400px;
+                height: 415px;
             }
             h1 {
                 color: white;
                 font-size: 76px;
                 font-weight: bold;
-                line-height: 40px;
+                line-height: 70px;
             }
             p {
                 color: white
@@ -22,6 +21,7 @@
         .text-container {
             position: absolute;
             left: 500px;
+            top: 150px;
             z-index: 3;
         }
         
@@ -29,8 +29,8 @@
             position: absolute;
             background-color: rgb(33 31 31 / 34%);
             width: 200px;
-            height: 400px;
+            height: 415px;
             left: 400px;
             z-index: 2;
-            top: 87px;
+            top: 100px;
         }

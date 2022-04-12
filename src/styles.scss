@@ -1,17 +1,20 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Sen', sans-serif;
     width: 100vw;
+    overflow-x: hidden;
 }
 
 h2 {
-    font-size: 55px;
-    font-weight: bold;
-    margin-top: 0;
-    margin-left: 40px;
-    margin-bottom: 0;
+    font-size: 45px !important;
+    font-weight: bold !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    color: white;
+    padding-bottom: 70px;
 }
 
-.text-color {
-    color: white;
+.bg-black {
+    background-color: #0c0c0c;
 }
