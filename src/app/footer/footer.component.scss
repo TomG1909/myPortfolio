@@ -1,10 +1,45 @@
-.footer-container{
-    background-color:#181823;
+.footer-container {
+    display: flex;
+    background-color: #181823;
+    justify-content: space-between;
+
+}
+
+.container-left {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     height: 422px;
     padding-left: 70px;
-    padding-top: 40px;
 
-    img{
+    img {
         width: 60px;
     }
+}
+
+.container-right {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 70px;
+
+}
+
+.links {
+    display: flex;
+
+    img {
+        width: 30px;
+    }
+
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+a {
+    color: rgba(225, 225, 225, 0.6);
 }

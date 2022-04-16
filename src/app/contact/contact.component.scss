@@ -1,7 +1,7 @@
     .example-form {
         min-width: 150px;
         max-width: 500px;
-        width: 50%;
+        width: 90%;
     }
     
     .example-full-width {
@@ -11,7 +11,6 @@
     .contact-container {
         display: flex;
         align-items: center;
-        padding-left: 40px;
         padding-right: 40px;
         justify-content: center;
         height: 550px;
@@ -66,3 +65,14 @@
      ::ng-deep.mat-form-field-required-marker {
         color: #8C8C8C !important
     }
+
+    button{
+        background-color:#5221E6;
+        color:#fff;
+        font-size: 20px;
+        width: 90%;
+        padding: 10px;
+    }
+.btn-contact{
+    display: flex;
+}

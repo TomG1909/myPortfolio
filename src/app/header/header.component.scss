@@ -1,37 +1,55 @@
-                header {
-                    position: sticky;
-                    top: 0;
-                    z-index: 5;
-                    background: linear-gradient(to right, #0c0c0c 0%, #0c0c0c 30%, #181823 30%, #181823 100%);
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-                    padding-left: 70px;
-                    padding-right: 120px;
-                    img {
-                        width: 80px;
-                    }
-                    a {
-                        color: rgba(255, 255, 255, 0.6);
-                        text-decoration: none;
-                        margin-right: 20px;
-                        margin-left: 20px;
-                        font-size: 16px;
-                    }
-                }
-                
-                .navigation {
-                    display: flex;
-                    height: 100px;
-                    align-items: center;
-                }
-                
-                .bg-link {
-                    background-color: transparent;
-                    height: 100px;
-                    align-items: center;
-                    display: flex;
-                    &:hover {
-                        background-color: #5221e6;
-                    }
-                }
+header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    background: linear-gradient(to right, #0c0c0c 0%, #0c0c0c 30%, #181823 30%, #181823 100%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 120px;
+
+
+    a {
+        color: rgba(255, 255, 255, 0.6);
+        text-decoration: none;
+        margin-right: 20px;
+        margin-left: 20px;
+        font-size: 16px;
+    }
+}
+
+.logo-container {
+    display: grid;
+}
+
+.logo,
+.logo-active {
+    width: 80px;
+
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.logo:hover {
+
+    opacity: 0;
+}
+
+
+.navigation {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.bg-link {
+    background-color: transparent;
+    height: 100px;
+    align-items: center;
+    display: flex;
+
+    &:hover {
+        background-color: #5221e6;
+    }
+}
