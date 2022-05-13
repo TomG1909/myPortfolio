@@ -11,14 +11,15 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
 import { ContactComponent } from './contact/contact.component';
 import { MySkillsComponent } from './my-skills/my-skills.component';
 import { SkillBoxComponent } from './skill-box/skill-box.component';
-import { ProjectBoxComponent } from './project-box/project-box.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { FooterComponent } from './footer/footer.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {MatButtonModule} from '@angular/material/button';
-
+import { MatButtonModule } from '@angular/material/button';
+import { SuccessfulSendComponent } from './successful-send/successful-send.component';
+import { ImprintComponent } from './imprint/imprint.component';
+import { DataProtectionComponent } from './data-protection/data-protection.component';
 
 
 
@@ -33,8 +34,10 @@ import {MatButtonModule} from '@angular/material/button';
     ContactComponent,
     MySkillsComponent,
     SkillBoxComponent,
-    ProjectBoxComponent,
     FooterComponent,
+    SuccessfulSendComponent,
+    ImprintComponent,
+    DataProtectionComponent,
 
 
 
@@ -49,7 +52,8 @@ import {MatButtonModule} from '@angular/material/button';
     MatCardModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    FormsModule
 
 
 

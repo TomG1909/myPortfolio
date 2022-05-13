@@ -1,0 +1,28 @@
+.dataprotection-container {
+    height: 100vh;
+}
+
+.bg-black {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    overflow-y: scroll;
+    p,
+    ul {
+        color: gray;
+        font-size: 15px
+    }
+    h2 {
+        font-size: 25px !important;
+        padding-bottom: 20px !important;
+    }
+    h3 {
+        color: white;
+    }
+}
+
+.footer {
+    height: 30vh;
+}

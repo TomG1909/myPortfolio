@@ -1,0 +1,22 @@
+.imprint-container {
+    height: 100vh;
+}
+
+.bg-black {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    padding-left: 70px;
+    p {
+        color: gray;
+        font-size: 20px
+    }
+    h2 {
+        font-size: 25px;
+    }
+}
+
+.footer {
+    height: 30vh;
+}

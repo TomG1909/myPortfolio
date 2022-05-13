@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, Validators } from '@angular/forms';
+import { SuccessfulSendComponent } from '../successful-send/successful-send.component';
+
 
 
 @Component({
@@ -9,9 +11,19 @@ import { FormControl, Validators } from '@angular/forms';
 })
 export class ContactComponent implements OnInit {
   emailFormControl = new FormControl('', [Validators.required, Validators.email]);
+
+  email: any;
+  message: any;
+  name: any;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  submitForm() {
+
+    alert('sending mail sucessful');
+  }
+
 }
+

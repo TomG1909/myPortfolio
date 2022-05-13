@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProjectBoxComponent } from './project-box.component';
+import { ImprintComponent } from './imprint.component';
 
-describe('ProjectBoxComponent', () => {
-  let component: ProjectBoxComponent;
-  let fixture: ComponentFixture<ProjectBoxComponent>;
+describe('ImprintComponent', () => {
+  let component: ImprintComponent;
+  let fixture: ComponentFixture<ImprintComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ProjectBoxComponent ]
+      declarations: [ ImprintComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ProjectBoxComponent);
+    fixture = TestBed.createComponent(ImprintComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

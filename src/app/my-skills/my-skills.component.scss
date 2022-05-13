@@ -32,3 +32,17 @@
 .pd-b {
     padding-bottom: 20px;
 }
+
+@media(max-width:900px) {
+    .title-container {
+        width: 348px;
+        height: 85px;
+        float: none;
+        padding-left: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .main-container {
+        padding-top: 0;
+    }
+}
