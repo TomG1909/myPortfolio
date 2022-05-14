@@ -44,6 +44,8 @@ header {
     height: 100px;
     align-items: center;
     display: flex;
+    justify-content: center;
+    width: 90px;
     &:hover {
         background-color: #5221e6;
     }
@@ -60,5 +62,8 @@ header {
         margin-left: 20px;
         grid-column: 1;
         grid-row: 1;
+    }
+    .bg-link {
+        width: unset;
     }
 }
