@@ -5,17 +5,17 @@
             <img class="logo" src="assets/img/Vectorid_w.png">
         </div>
     </a>
-    <div class="navigation">
-        <a class="bg-link" href='#home'>
-            <div>Home</div>
-        </a>
-        <a href='#about' class="bg-link">
-            <div>About me</div>
-        </a>
-        <a href='#myWork' class="bg-link">
-            <div>My Work</div>
-        </a>
-
+    <div [class.is-open] = "isMenuOpen" class="navigation">
+        <div (click)="toogleMenu()"><a class="bg-link" href='#home'>Home</a></div>
+        <div (click)="toogleMenu()"><a class="bg-link" href='#skills'>My Skills</a></div>
+        <div (click)="toogleMenu()"><a href='#about' class="bg-link">About me</a></div>
+        <div (click)="toogleMenu()"><a href='#myWork' class="bg-link">My Work </a></div>
+       
     </div>
+
+    <mat-icon class="menu-icon d-none" (click)="toogleMenu()">{{ isMenuOpen ? "close" : "menu"}}</mat-icon>
+
+   
+        
 
 </header>

@@ -74,7 +74,7 @@ a {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 187px;
+        height: 160px;
         padding-left: 20px;
         img {
             width: 30px;
@@ -90,5 +90,12 @@ a {
     }
     .links-legal {
         font-size: 12px;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    .footer-container {
+        display: flex;
+        justify-content: center;
     }
 }

@@ -20,6 +20,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { SuccessfulSendComponent } from './successful-send/successful-send.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
+import { MatIconModule } from '@angular/material/icon';
+
 
 
 
@@ -53,7 +55,8 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
     ReactiveFormsModule,
     BrowserAnimationsModule,
     MatButtonModule,
-    FormsModule
+    FormsModule,
+    MatIconModule
 
 
 

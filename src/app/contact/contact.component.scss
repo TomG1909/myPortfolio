@@ -1,7 +1,7 @@
     .example-form {
         min-width: 150px;
         max-width: 500px;
-        width: 90%;
+        width: 100%;
     }
     
     .example-full-width {
@@ -11,20 +11,27 @@
     .contact-container {
         display: flex;
         align-items: center;
-        padding-right: 40px;
-        justify-content: center;
+        justify-content: space-between;
         height: 550px;
+        margin-left: 70px;
+        margin-right: 70px;
     }
     
     .title-contact {
-        width: 50vw;
-        color: #8C8C8C;
+        width: 30vw;
+        color: #ffffff;
         font-weight: bold;
         font-size: 25px;
         display: flex;
-        align-items: center;
-        span {
-            margin-left: 20px;
+        align-items: flex-start;
+        flex-direction: column;
+        height: 414px;
+        p {
+            font-size: 18px;
+            font-weight: normal;
+            margin-right: 50px;
+            margin-top: 20px;
+            color: rgba(225, 225, 225, 0.6)
         }
         img {
             width: 70px;
@@ -85,8 +92,22 @@
             align-items: center;
         }
         .contact-container {
-            padding-left: 20px;
-            padding-right: 20px;
+            padding-left: 0;
+            padding-right: 0;
             flex-direction: column;
+            padding-bottom: 75px;
+        }
+        .title-contact {
+            width: 52vw
+        }
+    }
+    
+    @media(max-width:600px) {
+        .title-contact {
+            width: 80vw
+        }
+        .contact-container {
+            margin-left: 0;
+            margin-right: 0;
         }
     }
