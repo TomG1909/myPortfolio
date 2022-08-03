@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { SuccessfulSendComponent } from '../successful-send/successful-send.component';
 
 
@@ -10,7 +10,15 @@ import { SuccessfulSendComponent } from '../successful-send/successful-send.comp
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements OnInit {
-  emailFormControl = new FormControl('', [Validators.required, Validators.email]);
+
+  contactForm = new FormGroup({
+
+    name: new FormControl('', [Validators.required]),
+    emailFormControl: new FormControl('', [Validators.required, Validators.email]),
+
+
+  })
+
 
   email: any;
   message: any;
